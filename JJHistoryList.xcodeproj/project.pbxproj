@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9287A25621F9515900F2D78D /* JJHistoryListKeyItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287A25521F9515900F2D78D /* JJHistoryListKeyItemModel.m */; };
+		9287A25921F9517900F2D78D /* JJHistoryListKeySectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9287A25821F9517900F2D78D /* JJHistoryListKeySectionModel.m */; };
+		9296083821FAAB3600EBC5C5 /* 删  除.png in Resources */ = {isa = PBXBuildFile; fileRef = 9296083721FAAB3600EBC5C5 /* 删  除.png */; };
+		92B4EB5A21F9974B0004B73D /* 清空.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B4EB5921F9974B0004B73D /* 清空.png */; };
+		92B4EB5D21F9A4C60004B73D /* JJHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B4EB5C21F9A4C60004B73D /* JJHistoryTableViewCell.m */; };
+		92B4EB6021F9A4D60004B73D /* JJHistoryListHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B4EB5F21F9A4D60004B73D /* JJHistoryListHeaderFooterView.m */; };
+		92B4EB6321F9AC210004B73D /* JJHistoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B4EB6221F9AC210004B73D /* JJHistoryItem.m */; };
 		92E950DA21F86F7F00CA7165 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E950D921F86F7F00CA7165 /* AppDelegate.m */; };
 		92E950DD21F86F7F00CA7165 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E950DC21F86F7F00CA7165 /* ViewController.m */; };
 		92E950E021F86F7F00CA7165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E950DE21F86F7F00CA7165 /* Main.storyboard */; };
@@ -15,6 +22,8 @@
 		92E950E821F86F8100CA7165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E950E721F86F8100CA7165 /* main.m */; };
 		92E950F221F86F8100CA7165 /* JJHistoryListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E950F121F86F8100CA7165 /* JJHistoryListTests.m */; };
 		92E950FD21F86F8100CA7165 /* JJHistoryListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E950FC21F86F8100CA7165 /* JJHistoryListUITests.m */; };
+		92E9510D21F86FB000CA7165 /* JJHistoryListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E9510C21F86FB000CA7165 /* JJHistoryListView.m */; };
+		92E9511021F8721600CA7165 /* JJHistoryListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E9510F21F8721600CA7165 /* JJHistoryListManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9287A25421F9515900F2D78D /* JJHistoryListKeyItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryListKeyItemModel.h; sourceTree = "<group>"; };
+		9287A25521F9515900F2D78D /* JJHistoryListKeyItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryListKeyItemModel.m; sourceTree = "<group>"; };
+		9287A25721F9517900F2D78D /* JJHistoryListKeySectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryListKeySectionModel.h; sourceTree = "<group>"; };
+		9287A25821F9517900F2D78D /* JJHistoryListKeySectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryListKeySectionModel.m; sourceTree = "<group>"; };
+		9296083721FAAB3600EBC5C5 /* 删  除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删  除.png"; sourceTree = "<group>"; };
+		9296083A21FADDB800EBC5C5 /* JJHistoryItemDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryItemDelegate.h; sourceTree = "<group>"; };
+		92B4EB5921F9974B0004B73D /* 清空.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清空.png"; sourceTree = "<group>"; };
+		92B4EB5B21F9A4C60004B73D /* JJHistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryTableViewCell.h; sourceTree = "<group>"; };
+		92B4EB5C21F9A4C60004B73D /* JJHistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryTableViewCell.m; sourceTree = "<group>"; };
+		92B4EB5E21F9A4D60004B73D /* JJHistoryListHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryListHeaderFooterView.h; sourceTree = "<group>"; };
+		92B4EB5F21F9A4D60004B73D /* JJHistoryListHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryListHeaderFooterView.m; sourceTree = "<group>"; };
+		92B4EB6121F9AC210004B73D /* JJHistoryItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryItem.h; sourceTree = "<group>"; };
+		92B4EB6221F9AC210004B73D /* JJHistoryItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryItem.m; sourceTree = "<group>"; };
 		92E950D521F86F7E00CA7165 /* JJHistoryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJHistoryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E950D821F86F7F00CA7165 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92E950D921F86F7F00CA7165 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +73,10 @@
 		92E950F821F86F8100CA7165 /* JJHistoryListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJHistoryListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E950FC21F86F8100CA7165 /* JJHistoryListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryListUITests.m; sourceTree = "<group>"; };
 		92E950FE21F86F8100CA7165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E9510B21F86FB000CA7165 /* JJHistoryListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryListView.h; sourceTree = "<group>"; };
+		92E9510C21F86FB000CA7165 /* JJHistoryListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryListView.m; sourceTree = "<group>"; };
+		92E9510E21F8721600CA7165 /* JJHistoryListManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJHistoryListManager.h; sourceTree = "<group>"; };
+		92E9510F21F8721600CA7165 /* JJHistoryListManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJHistoryListManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9296083921FADD0600EBC5C5 /* 点击事件代理 */ = {
+			isa = PBXGroup;
+			children = (
+				9296083A21FADDB800EBC5C5 /* JJHistoryItemDelegate.h */,
+			);
+			path = "点击事件代理";
+			sourceTree = "<group>";
+		};
+		92B4EB6421F9AC380004B73D /* 内部标签 */ = {
+			isa = PBXGroup;
+			children = (
+				92B4EB6121F9AC210004B73D /* JJHistoryItem.h */,
+				92B4EB6221F9AC210004B73D /* JJHistoryItem.m */,
+			);
+			path = "内部标签";
+			sourceTree = "<group>";
+		};
+		92B4EB6521F9AC4C0004B73D /* 分区头部 */ = {
+			isa = PBXGroup;
+			children = (
+				92B4EB5E21F9A4D60004B73D /* JJHistoryListHeaderFooterView.h */,
+				92B4EB5F21F9A4D60004B73D /* JJHistoryListHeaderFooterView.m */,
+			);
+			path = "分区头部";
+			sourceTree = "<group>";
+		};
+		92B4EB6621F9AC5C0004B73D /* 列表单元格标签载体 */ = {
+			isa = PBXGroup;
+			children = (
+				92B4EB5B21F9A4C60004B73D /* JJHistoryTableViewCell.h */,
+				92B4EB5C21F9A4C60004B73D /* JJHistoryTableViewCell.m */,
+			);
+			path = "列表单元格标签载体";
+			sourceTree = "<group>";
+		};
+		92B4EB6721F9AC710004B73D /* 分区数据模型 */ = {
+			isa = PBXGroup;
+			children = (
+				9287A25721F9517900F2D78D /* JJHistoryListKeySectionModel.h */,
+				9287A25821F9517900F2D78D /* JJHistoryListKeySectionModel.m */,
+			);
+			path = "分区数据模型";
+			sourceTree = "<group>";
+		};
+		92B4EB6821F9AC7F0004B73D /* 分区按钮模型 */ = {
+			isa = PBXGroup;
+			children = (
+				9287A25421F9515900F2D78D /* JJHistoryListKeyItemModel.h */,
+				9287A25521F9515900F2D78D /* JJHistoryListKeyItemModel.m */,
+			);
+			path = "分区按钮模型";
+			sourceTree = "<group>";
+		};
+		92B4EB6921F9AC8C0004B73D /* 数据集中器 */ = {
+			isa = PBXGroup;
+			children = (
+				92E9510E21F8721600CA7165 /* JJHistoryListManager.h */,
+				92E9510F21F8721600CA7165 /* JJHistoryListManager.m */,
+			);
+			path = "数据集中器";
+			sourceTree = "<group>";
+		};
 		92E950CC21F86F7E00CA7165 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +189,9 @@
 		92E950D721F86F7E00CA7165 /* JJHistoryList */ = {
 			isa = PBXGroup;
 			children = (
+				9296083721FAAB3600EBC5C5 /* 删  除.png */,
+				92B4EB5921F9974B0004B73D /* 清空.png */,
+				92E9510A21F86F9700CA7165 /* JJHistoryListView */,
 				92E950D821F86F7F00CA7165 /* AppDelegate.h */,
 				92E950D921F86F7F00CA7165 /* AppDelegate.m */,
 				92E950DB21F86F7F00CA7165 /* ViewController.h */,
@@ -130,6 +221,22 @@
 				92E950FE21F86F8100CA7165 /* Info.plist */,
 			);
 			path = JJHistoryListUITests;
+			sourceTree = "<group>";
+		};
+		92E9510A21F86F9700CA7165 /* JJHistoryListView */ = {
+			isa = PBXGroup;
+			children = (
+				92E9510B21F86FB000CA7165 /* JJHistoryListView.h */,
+				92E9510C21F86FB000CA7165 /* JJHistoryListView.m */,
+				9296083921FADD0600EBC5C5 /* 点击事件代理 */,
+				92B4EB6921F9AC8C0004B73D /* 数据集中器 */,
+				92B4EB6821F9AC7F0004B73D /* 分区按钮模型 */,
+				92B4EB6721F9AC710004B73D /* 分区数据模型 */,
+				92B4EB6621F9AC5C0004B73D /* 列表单元格标签载体 */,
+				92B4EB6521F9AC4C0004B73D /* 分区头部 */,
+				92B4EB6421F9AC380004B73D /* 内部标签 */,
+			);
+			path = JJHistoryListView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +342,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B4EB5A21F9974B0004B73D /* 清空.png in Resources */,
 				92E950E521F86F8100CA7165 /* LaunchScreen.storyboard in Resources */,
 				92E950E221F86F8100CA7165 /* Assets.xcassets in Resources */,
+				9296083821FAAB3600EBC5C5 /* 删  除.png in Resources */,
 				92E950E021F86F7F00CA7165 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +372,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				92E950DD21F86F7F00CA7165 /* ViewController.m in Sources */,
+				92B4EB6321F9AC210004B73D /* JJHistoryItem.m in Sources */,
 				92E950E821F86F8100CA7165 /* main.m in Sources */,
 				92E950DA21F86F7F00CA7165 /* AppDelegate.m in Sources */,
+				9287A25921F9517900F2D78D /* JJHistoryListKeySectionModel.m in Sources */,
+				92B4EB5D21F9A4C60004B73D /* JJHistoryTableViewCell.m in Sources */,
+				92E9511021F8721600CA7165 /* JJHistoryListManager.m in Sources */,
+				92E9510D21F86FB000CA7165 /* JJHistoryListView.m in Sources */,
+				92B4EB6021F9A4D60004B73D /* JJHistoryListHeaderFooterView.m in Sources */,
+				9287A25621F9515900F2D78D /* JJHistoryListKeyItemModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  JJHistoryListManager.m
 //  JJHistoryList
 //
 //  Created by Joey Chan on 2019/1/23.
 //  Copyright © 2019年 Joey Chan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JJHistoryListManager.h"
 
-@interface ViewController : UIViewController
-
+@implementation JJHistoryListManager
 
 @end
-
